@@ -1,6 +1,5 @@
-import { First, Second } from "@/example/ch08";
-import ShuffleGame from "@/example/ch08/ShuffleGame.jsx";
+import Parent from "@/example/ch09/rerender-props";
 
 export default function App() {
-  return <ShuffleGame />;
+  return <Parent />;
 }
